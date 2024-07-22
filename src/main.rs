@@ -12,11 +12,6 @@ struct App<'a> {
     state: Option<GameState<'a>>,
 }
 
-struct Inputs<'a>{
-    source: wgpu::ShaderSource<'a>,
-    topology: wgpu::PrimitiveTopology,
-    strip_index_format: Option<wgpu::IndexFormat>,
-}
 struct GameState<'a> {
     surface: wgpu::Surface<'a>,
     device: wgpu::Device,
