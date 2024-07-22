@@ -1,0 +1,9 @@
+[package]
+name = "WGPU-Hello-Triangle"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winit = "0.30.3"
+wgpu = "0.20.1"
+tokio = { version = "1.38", features = ["full"] }
